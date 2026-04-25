@@ -1,1 +1,3 @@
-console.log("TEST");
+import '../styles/layout.css'
+
+console.log('Test');
