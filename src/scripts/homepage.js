@@ -1,7 +1,7 @@
 export default class Homepage {
-    #container;
+    #content;
 
     constructor() {
-        this.#container = document.querySelector('#container');
+        this.#content = document.querySelector('#content');
     }
 }
