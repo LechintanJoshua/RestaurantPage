@@ -31,6 +31,7 @@ export default class Homepage {
         div.appendChild(pFst);
         div.appendChild(pSec);
         div.classList.add('card');
+        div.classList.add('intro');
 
         return div;
     }

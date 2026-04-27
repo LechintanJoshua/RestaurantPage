@@ -126,7 +126,6 @@ ul {
 
 #content .intro  p:first-child {
     order: 1;
-    align-self: flex-start;
 }
 
 #content .card.fam {
