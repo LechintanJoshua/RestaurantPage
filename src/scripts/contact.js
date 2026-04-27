@@ -52,9 +52,9 @@ export default class Contact {
         const div = document.createElement('div');
         const p = document.createElement('p');
         const ul = document.createElement('ul');
-        const info = ['Head Chef & Co-Fondator',
-            '+40 722 111 222',
-            'alexandru@fourtimtrees.ro',
+        const info = ["Maître D' & Rezervări",
+            '+40 733 444 555',
+            'rezervari@fourtimtrees.ro',
         ];
 
         this.#addListElements(ul, info);
