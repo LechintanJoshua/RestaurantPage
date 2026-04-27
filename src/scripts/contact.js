@@ -68,8 +68,30 @@ export default class Contact {
         return div;
     }
 
+    #createSomelierCard() {
+                const div = document.createElement('div');
+        const p = document.createElement('p');
+        const ul = document.createElement('ul');
+        const info = ['Somelier & Evenimente Private',
+            '+40 744 777 888',
+            'evenimente@fourtimtrees.ro',
+        ];
+
+        this.#addListElements(ul, info);
+
+        p.textContent = 'Victor Călinescu';
+
+        div.appendChild(p);
+        div.appendChild(ul);
+        div.classList.add('card');
+
+        return div;
+    }
+
     createContact() {
         this.#content.appendChild(this.#createTitleCard());
         this.#content.appendChild(this.#createChefCard());
+        this.#content.appendChild(this.#createReservationCard());
+        this.#content.appendChild(this.#createSomelierCard());
     }
 }
