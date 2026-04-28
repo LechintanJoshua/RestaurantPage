@@ -129,7 +129,8 @@ ul {
 }
 
 #content .card.fam {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 
 #content .card .details {
