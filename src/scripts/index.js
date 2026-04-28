@@ -1,7 +1,6 @@
 import '../styles/layout.css'
-import Homepage from '../scripts/homepage.js'
+import ScreenController from './scontroller.js';
 
-const home = new Homepage();
-home.createHomepage()
+const sc = new ScreenController();
 
 console.log('Test');

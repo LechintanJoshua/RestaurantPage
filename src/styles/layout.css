@@ -91,6 +91,10 @@ ul {
     list-style-type: none;
 }
 
+.active {
+    background-color: var(--burnt-orange);
+}
+
 #content {
     background-color: var(--olivy);
     padding: 1rem;
